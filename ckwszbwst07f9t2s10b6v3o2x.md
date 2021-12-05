@@ -299,7 +299,7 @@ Job well done!
 
 # Some CSS properties will be Stripped Out
 
-As mentioned in the [previous section](#you-can-use-css-preprocessors), CSS custom properties get stripped out. Additionally, some at-rules and CSS properties will be also eliminated in the final profile CSS. Here is a list of those properties I have found so far:
+As mentioned in the [previous section](#heading-you-can-use-css-preprocessors), CSS custom properties get stripped out. Additionally, some at-rules and CSS properties will be also eliminated in the final profile CSS. Here is a list of those properties I have found so far:
 
 - [*`@font-face`*](https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face) at-rule
 - [*`@import`*](https://developer.mozilla.org/en-US/docs/Web/CSS/@import) at-rule
@@ -354,7 +354,7 @@ Our customized CSS variables will override these. Changing one of those can modi
 
 - Properties like [scrollbar-width](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-width) and [scrollbar-color](https://developer.mozilla.org/en-US/docs/Web/CSS/scrollbar-color) are [only supported in Firefox 64 and higher](https://caniuse.com/?search=scrollbar-width).
 
-- Properties like [-webkit-text-fill-color](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-fill-color) and [-webkit-text-stroke](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke) [are non-standard and **should not be used** without careful consideration](https://caniuse.com/mdn-css_properties_-webkit-text-stroke)
+- Properties like [-webkit-text-fill-color](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-fill-color) and [-webkit-text-stroke](https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke) [are non-standard and **should not be used** without careful consideration](https://caniuse.com/mdn-css_properties_-webkit-text-stroke).
 
 - [gap (grid-gap)](https://developer.mozilla.org/en-US/docs/Web/CSS/gap), [place-items](https://developer.mozilla.org/en-US/docs/Web/CSS/place-items), [place-content](https://developer.mozilla.org/en-US/docs/Web/CSS/place-content), and other Grid layout CSS properties can effectively change the profile layout. It, in turn, can create confusion.
 
